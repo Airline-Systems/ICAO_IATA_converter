@@ -1,0 +1,5 @@
+U
+
+    òÐ†`;  ã                   @   s   d dl Z dd„ ZdS )é    Nc                 C   sH   t  tddƒ¡}|D ].}| |d krd |¡}|dd… }t|ƒ q|S )Nz./icao_iata.csvÚrr   Ú é   é   )ÚcsvÚreaderÚopenÚjoinÚprint)ÚicaoZcsv_fileÚrowÚiata© r   úQC:\Users\kopta\PycharmProjects\Airline-system\ICAO_to_IATA_converter\converter.pyÚairport   s    
+
+r   )r   r   r   r   r   r   Ú<module>   s   
