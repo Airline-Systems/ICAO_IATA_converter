@@ -40,4 +40,4 @@ def IataToIcao(iata):
     return jsonify({iata: icao})
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=False, debug='0.0.0.0')
