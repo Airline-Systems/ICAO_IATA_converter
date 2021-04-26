@@ -1,6 +1,5 @@
 from flask import Flask, request, render_template, url_for, redirect, jsonify
 from flask_restful import Api, Resource, reqparse
-from converter import *
 import csv
 
 app = Flask(__name__)
