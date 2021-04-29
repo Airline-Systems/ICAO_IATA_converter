@@ -6,7 +6,7 @@ app = Flask(__name__)
 api = Api(app)
 app.config['JSON_SORT_KEYS'] = False
 
-@app.route('/', methods=['GET']
+@app.route('/', methods=['GET'])
 def index():
     welcome = "please provide arguments in the following format\n
     /icao_to_iata/<ICAO CODE>\n
