@@ -9,9 +9,9 @@ app.config['JSON_SORT_KEYS'] = False
 @app.route('/', methods=['GET'])
 def index():
     welcome = "please provide arguments in the following format\n
-    /icao_to_iata/<ICAO CODE>\n
+    /icao_to_iata/\<ICAO CODE\>\n
     or\n
-    /iata_to_icao/<IATA CODE>"
+    /iata_to_icao/\<IATA CODE\>"
     return welcome
 
 @app.route('/icao_to_iata/<icao>', methods=['GET'])
